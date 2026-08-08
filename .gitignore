@@ -1,0 +1,21 @@
+# ANSYS/Fluent Solver Results & Database Files
+*.dat.h5
+*.cas.h5
+*.ip
+*.msh
+*.mshdb
+*.backup
+*.lok
+*.clg
+*.err
+*.wbjn
+*.tmp
+
+# Temporary/Backup Files
+*_backup.pptx
+_backup/
+temp/
+
+# IDE/Agent Scratch Files
+.gemini/
+scratch/
