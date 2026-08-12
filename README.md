@@ -62,7 +62,9 @@ To ensure numerical accuracy and grid convergence, three structured meshes were 
 
 ### Near-Wall Grid Verification
 Below is the distribution of the non-dimensional wall distance $y^+$ along the pipe boundary, illustrating wall layer resolution:
-![Wall YPlus Distribution Along Pipe Length](Wall%20YPlus%20Distribution%20Along%20Pipe%20Length.png)
+<p align="center">
+  <img src="Wall YPlus Distribution Along Pipe Length.png" width="70%" alt="Wall YPlus Distribution Along Pipe Length" />
+</p>
 
 ---
 
@@ -76,16 +78,18 @@ Numerical evaluations taken at $z = 14\text{ m}$ (in the fully developed region)
 | **Pressure Drop ($\Delta P_{6-16\text{m}}$)** | $811.70\text{ Pa}$ | $855.16\text{ Pa}$ | $772.15\text{ Pa}$ | **5.12%** | **10.75%** |
 
 ### Flow Visualization
-* **Velocity Development:**
-  ![Velocity Profile Development](velocitycombined.png)
-* **Pressure Drop Contours:**
-  ![Pressure Drop Contours](pressurecombined.png)
+Below are the developing velocity profiles (top) and the pressure drop contours (bottom) along the pipe length:
+<p align="center">
+  <img src="velocitycombined.png" width="49%" alt="Velocity Profile Development" />
+  <img src="pressurecombined.png" width="49%" alt="Pressure Drop Contours" />
+</p>
 
 ### Velocity Profile Validation
-* **Friction Velocity & Radial Profile:**
-  ![Radial Velocity Profile Validation](Radial%20Velocity%20Profile.png)
-* **Analytical Comparison:**
-  ![Radial Profile vs. Analytical Reference](Radial%20Velocity%20Profile%20with%20analytical%20.png)
+The radial velocity profile at the pipe exit validated against theoretical velocity profile laws:
+<p align="center">
+  <img src="Radial Velocity Profile.png" width="49%" alt="Radial Velocity Profile Validation" />
+  <img src="Radial Velocity Profile with analytical .png" width="49%" alt="Radial Profile vs. Analytical Reference" />
+</p>
 
 ### Key Observations
 * **Turbulence Model Performance:** The Shear Stress Transport (SST) $k$-$\omega$ model displays superior accuracy (within ~5% error) compared to the Realizable $k$-$\epsilon$ (RKE) model (~11% error) in capturing near-wall gradients.
