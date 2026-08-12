@@ -80,7 +80,7 @@ Numerical evaluations taken at $z = 14\text{ m}$ (in the fully developed region)
 
 ## 6. Project Presentation
 A detailed slide deck detailing the setup, plots, and visual post-processing (vectors, contours) is available in the root folder:  
-📄 **[Turbulent-pipe-flow.pptx](Turbulent-pipe-flow.pptx)**
+📄 **[Turbulent-pipe-flow.pdf](Turbulent-pipe-flow.pdf)**
 
 ---
 
