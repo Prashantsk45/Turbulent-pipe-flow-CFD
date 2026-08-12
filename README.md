@@ -63,7 +63,7 @@ To ensure numerical accuracy and grid convergence, three structured meshes were 
 ### Near-Wall Grid Verification
 Below is the distribution of the non-dimensional wall distance $y^+$ along the pipe boundary, illustrating wall layer resolution:
 <p align="center">
-  <img src="Wall YPlus Distribution Along Pipe Length.png" width="70%" alt="Wall YPlus Distribution Along Pipe Length" />
+  <img src="Wall YPlus Distribution Along Pipe Length.png" width="85%" alt="Wall YPlus Distribution Along Pipe Length" />
 </p>
 
 ---
@@ -80,15 +80,19 @@ Numerical evaluations taken at $z = 14\text{ m}$ (in the fully developed region)
 ### Flow Visualization
 Below are the developing velocity profiles (top) and the pressure drop contours (bottom) along the pipe length:
 <p align="center">
-  <img src="velocitycombined.png" width="49%" alt="Velocity Profile Development" />
-  <img src="pressurecombined.png" width="49%" alt="Pressure Drop Contours" />
+  <img src="velocitycombined.png" width="85%" alt="Velocity Profile Development" />
+</p>
+<p align="center">
+  <img src="pressurecombined.png" width="85%" alt="Pressure Drop Contours" />
 </p>
 
 ### Velocity Profile Validation
 The radial velocity profile at the pipe exit validated against theoretical velocity profile laws:
 <p align="center">
-  <img src="Radial Velocity Profile.png" width="49%" alt="Radial Velocity Profile Validation" />
-  <img src="Radial Velocity Profile with analytical .png" width="49%" alt="Radial Profile vs. Analytical Reference" />
+  <img src="Radial Velocity Profile.png" width="85%" alt="Radial Velocity Profile Validation" />
+</p>
+<p align="center">
+  <img src="Radial Velocity Profile with analytical .png" width="85%" alt="Radial Profile vs. Analytical Reference" />
 </p>
 
 ### Key Observations
